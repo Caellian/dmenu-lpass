@@ -4,9 +4,9 @@ A dmenu interface to the lastpass-cli
 
 ## Requirements
 
-- zenity
+- dmenu
 - lastpass-cli
-- Notifications
+- Notifications - for showing username
 
 ## License
 

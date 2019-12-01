@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! lpass status -q; then
-    username=`zenity --entry --text="LastPass Username"`
+    username=`echo "" | dmenu -p "LastPass username: "`
     if ! test -z "$username"; then
         lpass login --trust $username
     fi
